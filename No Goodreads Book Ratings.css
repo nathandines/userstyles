@@ -1,0 +1,41 @@
+@-moz-document domain("goodreads.com") {
+/* General Site Locations */
+div.communityRating, /* Main Feed */
+div.wtrStarsContainer, /* Main Feed, my rating */
+div.userRating,
+div.stars {
+    display: none !important;
+}
+
+/* Book Page Locations */
+div.BookPageMetadataSection__ratingStats,
+div.BookRatingStars,
+div.AverageRating,
+div.ReviewsSectionStatistics,
+div.ReviewsList div.SignalList,
+article.ReviewCard span.RatingStars {
+    display: none !important;
+}
+
+/* More Reviews Page */
+div.CommunityShelvingSignalList {
+    display: none !important;
+}
+
+/* Create Review */
+label[for='review_rating'],
+span.clearRating {
+    display: none !important;
+}
+
+/* Lists Page */
+span.minirating {
+    display: none !important;
+}
+
+/* Profile Page Feed */
+span.staticStars,
+div.ratingStars {
+    display: none !important;
+}
+}
