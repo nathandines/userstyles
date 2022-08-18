@@ -38,4 +38,9 @@ span.staticStars,
 div.ratingStars {
     display: none !important;
 }
+
+/* Stats Page */
+div.avgRating {
+    display: none !important;
+}
 }
