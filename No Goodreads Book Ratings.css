@@ -43,4 +43,9 @@ div.ratingStars {
 div.avgRating {
     display: none !important;
 }
+
+/* Explore Page */
+article.ReviewCardSmall span.RatingStars {
+    display: none !important;
+}
 }
