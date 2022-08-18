@@ -1,0 +1,33 @@
+@-moz-document domain("amazon.com.au"), domain("amazon.com"), domain("amazon.co.uk"), domain("amazon.co.jp") {
+/*Book pages*/
+div.ebooks div#reviewFeatureGroup,
+div.audible div#averageCustomerReviews_feature_div > div#averageCustomerReviews,
+div.book div#averageCustomerReviews_feature_div {
+    display: none !important;
+}
+
+div.ebooks div#detailBullets_averageCustomerReviews,
+div.audible div#detailBullets_averageCustomerReviews,
+div.book div#detailBullets_averageCustomerReviews {
+    display: none !important;
+}
+
+div.ebooks div#reviewsMedley div.a-fixed-left-grid-col.a-col-left,
+div.audible div#reviewsMedley div.a-fixed-left-grid-col.a-col-left,
+div.book div#reviewsMedley div.a-fixed-left-grid-col.a-col-left {
+    display: none !important;
+}
+
+div.ebooks i.review-rating,
+div.audible i.review-rating,
+div.book i.review-rating {
+    display: none !important;
+}
+
+div.ebooks div.a-icon-row,
+div.audible div.a-icon-row,
+div.book div.a-icon-row {
+    display: none !important;
+}
+
+}
