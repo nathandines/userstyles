@@ -1,0 +1,33 @@
+@-moz-document domain("audible.com.au"), domain("audible.com") {
+/* Popover Ratings */
+div.bc-popover-inner > span:nth-child(2),
+div.bc-popover-inner > div.bc-divider-secondary,
+div.bc-popover-inner > div.bc-divider-secondary + span {
+    display: none !important;
+}
+
+/* Book Page Rating */
+li.ratingsLabel {
+    display: none !important;
+}
+
+/* Aggregated Reviews */
+li.rating-stars, li.histogram-rating {
+    display: none !important;
+}
+
+/* Book Page Individual Reviews */
+div.bc-review-stars {
+    display: none !important;
+}
+
+/* Library Rate and Review */
+li.rateAndReviewLabel, li.ratingAndReviewLabel {
+    display: none !important;
+}
+
+/* Wish List */
+tr#wishlist-list-header ~ tr > td:nth-child(2) > div > span > span > ul > li:nth-child(5) {
+    display: none !important;
+}
+}
