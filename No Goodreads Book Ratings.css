@@ -48,4 +48,9 @@ div.avgRating {
 article.ReviewCardSmall span.RatingStars {
     display: none !important;
 }
+
+/* My Books Average Ratings */
+td.avg_rating > div.value {
+    display: none !important;
+}
 }
