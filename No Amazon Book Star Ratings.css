@@ -1,4 +1,4 @@
-@-moz-document domain("amazon.com.au"), domain("amazon.com"), domain("amazon.co.uk"), domain("amazon.co.jp") {
+@-moz-document domain("amazon.com.au"), domain("amazon.com"), domain("amazon.co.uk"), domain("amazon.co.jp"), domain("amazon.ca") {
 /*Book pages*/
 div.ebooks div#reviewFeatureGroup,
 div.audible div#averageCustomerReviews_feature_div > div#averageCustomerReviews,
