@@ -12,7 +12,7 @@ div.BookPageMetadataSection__ratingStats,
 div.BookRatingStars,
 div.AverageRating,
 div.ReviewsSectionStatistics,
-div.ReviewsList div.SignalList,
+div.ReviewsList span.RatingStars,
 article.ReviewCard span.RatingStars {
     display: none !important;
 }
