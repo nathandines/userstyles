@@ -53,4 +53,9 @@ article.ReviewCardSmall span.RatingStars {
 td.avg_rating > div.value {
     display: none !important;
 }
+
+/* Homepage Panel to Improve Recommendations */
+div[data-react-class='ReactComponents.ImproveRecommendations'] {
+    display: none !important;
+}
 }
