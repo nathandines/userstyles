@@ -30,4 +30,7 @@ div.book div.a-icon-row {
     display: none !important;
 }
 
+div.book-rating-container {
+    display: none !important;
+}
 }
