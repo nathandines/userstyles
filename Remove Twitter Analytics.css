@@ -1,0 +1,8 @@
+@-moz-document domain("twitter.com") {
+div:has(> a[aria-label="View Tweet analytics"]),
+div:has(> a[data-testId="analyticsButton"]),
+a[role="menuitem"][data-testid="analytics"] {
+    display: none !important;
+}
+
+}
