@@ -1,0 +1,5 @@
+@-moz-document regexp("https?://(www\\.)?reddit.com/r/[^/]+/comments/.+") {
+div:has(> div > div > div > i.icon-karma) {
+    display: none !important;
+}
+}
