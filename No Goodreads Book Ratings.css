@@ -1,4 +1,3 @@
-@-moz-document domain("goodreads.com") {
 /* General Site Locations */
 div.communityRating, /* Main Feed */
 div.wtrStarsContainer, /* Main Feed, my rating */
@@ -58,4 +57,9 @@ td.avg_rating > div.value {
 div[data-react-class='ReactComponents.ImproveRecommendations'] {
     display: none !important;
 }
+
+/* Highest rated book on the "Year in Books" page */
+div.crowdFavoriteWidget,
+div.crowdFavoriteWidget + hr {
+    display: none !important;
 }
