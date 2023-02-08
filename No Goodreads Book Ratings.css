@@ -1,3 +1,4 @@
+@-moz-document domain("goodreads.com") {
 /* General Site Locations */
 div.communityRating, /* Main Feed */
 div.wtrStarsContainer, /* Main Feed, my rating */
@@ -62,4 +63,5 @@ div[data-react-class='ReactComponents.ImproveRecommendations'] {
 div.crowdFavoriteWidget,
 div.crowdFavoriteWidget + hr {
     display: none !important;
+}
 }
