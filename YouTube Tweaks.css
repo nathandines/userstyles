@@ -1,0 +1,15 @@
+@-moz-document domain("youtube.com") {
+/* No Likes */
+#segmented-like-button > ytd-toggle-button-renderer > yt-button-shape > button > div.cbox.yt-spec-button-shape-next--button-text-content {
+    display: none !important;
+}
+#segmented-like-button > ytd-toggle-button-renderer > yt-button-shape > button > div.yt-spec-button-shape-next__icon {
+    margin-right: unset;
+    margin-left: unset;
+}
+
+/* No Views in Subscription Page */
+div#metadata-line > span:first-of-type {
+    display: none !important;
+}
+}
