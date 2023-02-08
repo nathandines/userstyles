@@ -12,4 +12,12 @@
 div#metadata-line > span:first-of-type {
     display: none !important;
 }
+
+/* No suggestions on videos */
+#movie_player > div.ytp-chrome-top > div.ytp-chrome-top-buttons > div.ytp-cards-teaser {
+    display: none !important;
+}
+#movie_player > div.ytp-chrome-top > div.ytp-chrome-top-buttons > button.ytp-button.ytp-cards-button {
+    display: none !important;
+}
 }
