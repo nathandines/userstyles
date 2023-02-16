@@ -1,0 +1,11 @@
+@-moz-document domain("commonsensemedia.org") {
+body.csm-premium-gated {
+    position: unset;
+    width: unset;
+    overflow: unset;
+}
+
+div.user-plus-gate {
+    display: none;
+}
+}
