@@ -1,0 +1,16 @@
+@-moz-document domain("woolworths.com.au") {
+/* Highlight Specials */
+/* Dark Reader Version */
+div.product-tile-promo-info {
+    background: rgb(153, 131, 0);
+}
+
+/* Normal Version */
+/*
+
+div.product-tile-promo-info {
+    background: #ffda00;
+}
+
+*/
+}
