@@ -1,0 +1,6 @@
+@-moz-document domain("reddit.com") {
+/* Limit reddit page to 50 items */
+#AppRouter-main-content > div > div > div > div > div > div > div:nth-of-type(1n+50) {
+    display: none;
+}
+}
